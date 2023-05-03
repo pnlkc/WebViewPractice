@@ -43,7 +43,7 @@ val webViewClient = object: AccompanistWebViewClient() {
 val webChromeClient = AccompanistWebChromeClient()
 
 
-// Accompanist WebView Composable 객체입니다
+// Accompanist WebView Composable입니다
 WebView(
     state = webViewState,
     client = webViewClient,
